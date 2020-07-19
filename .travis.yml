@@ -31,6 +31,6 @@ deploy:
   bucket_name:  elasticbeanstalk-ap-southeast-2-398181762547
   bucket_path:  docker-multi
   on:
-      branch: mohitkapadia/multi-server
+      branch: master
       access_key_id: $AWS_ACCESS_KEY
       secret_access_key: $AWS_SECRET_KEY
