@@ -5,6 +5,7 @@ services:
 before_install:
   - docker  build -t  mohitkapadia/react-test -f ./client/Dockerfile.dev ./client
 
+  
 script:
   - docker run -e CI=true mohitkapadia/react-test npm test -- --coverage
 
